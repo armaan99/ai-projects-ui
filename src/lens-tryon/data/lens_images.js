@@ -1,0 +1,26 @@
+export const lenses = [
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630969/lens-tryon/lens1_yat1fs.png",
+  },
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630971/lens-tryon/lens5_g6n7wd.png",
+  },
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630969/lens-tryon/lens6_o88tvj.png",
+  },
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630969/lens-tryon/lens4_cyoaaf.png",
+  },
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630969/lens-tryon/lens3_jgslwy.png",
+  },
+  {
+    image_url:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1707630969/lens-tryon/lens2_g2fbjx.png",
+  },
+];

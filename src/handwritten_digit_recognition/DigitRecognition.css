@@ -1,0 +1,99 @@
+.HDR {
+  height: 100vh;
+  width: 100vw;
+  background-color: #009688;
+}
+
+/* ------------------------------------------------ */
+.HDR-header {
+  height: 17vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HDR-header .title {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.HDR-header .sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: calc(1.1 * 0.1em);
+}
+
+/* ------------------------------------------------ */
+.HDR-body {
+  height: 75vh;
+  max-width: 80%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HDR-body .left-input,
+.HDR-body .right-output {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.HDR-body .desc {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.HDR-body .annotate-board-box,
+.HDR-body .prediction-result-box {
+  height: 450px;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HDR-body img {
+  height: 80%;
+  aspect-ratio: 1;
+}
+
+.HDR-body .prediction-res {
+  font-size: 400px;
+}
+
+/* ------------------------------------------------ */
+.HDR-footer {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.HDR-footer .predict-btn,
+.HDR-footer .clear-btn {
+  height: fit-content;
+  width: 80px;
+  text-align: center;
+  padding: 8px 20px;
+  background: radial-gradient(circle at bottom left, #087167, #00a695);
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #d6f0fa;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.HDR-footer .predict-btn:active,
+.HDR-footer .clear-btn:active {
+  transform: scale(0.9);
+}

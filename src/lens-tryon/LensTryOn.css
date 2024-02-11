@@ -1,0 +1,122 @@
+.LensTryOn {
+  height: 100vh;
+  width: 100vw;
+  background-color: #009688;
+}
+
+/* ------------------------------------------------ */
+.lens-header {
+  height: 17vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lens-header .title {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.lens-header .sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: calc(1.1 * 0.1em);
+}
+
+/* ------------------------------------------------ */
+.lens-body {
+  height: 83vh;
+  max-width: 80%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lens-body .left-face,
+.lens-body .right-lenses {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lens-body .desc {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lens-body .image-box {
+  height: 400px;
+  aspect-ratio: 0.8;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lens-body .image-box img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lens-body .left-face .file-upload-btn,
+.lens-body .left-face .clear-btn {
+  width: 150px;
+  text-align: center;
+  padding: 8px 20px;
+  background: radial-gradient(circle at bottom left, #087167, #00a695);
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #d6f0fa;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lens-body .left-face .file-upload-btn:active,
+.lens-body .left-face .clear-btn:active {
+  transform: scale(0.9);
+}
+
+.lens-body .lenses-box {
+  height: 510px;
+  width: 760px;
+  /* aspect-ratio: 0.8; */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-radius: 20px;
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  overflow: scroll;
+  padding: 20px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* overflow: hidden; */
+}
+
+.lens-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.lens-img img {
+  height: 80%;
+  width: 80%;
+}
